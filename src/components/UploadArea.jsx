@@ -292,6 +292,16 @@ const playSound = (soundFile, volume = 0.35) => {
 
               <div className="landing-content">
 
+                <div className="team-badge">
+                  <p className="team-badge-label">
+                    Tech Squad
+                  </p>
+
+                  <p className="team-badge-name">
+                    The Comrades
+                  </p>
+                </div>
+
                 <p className="eyebrow">
                   YOUR GOA MOMENT
                 </p>

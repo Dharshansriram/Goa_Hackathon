@@ -298,6 +298,69 @@ button {
    EYEBROW
    ========================================================= */
 
+.team-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: fit-content;
+
+  gap: 4px;
+
+  margin: 0 auto 22px;
+  padding: 14px 34px;
+
+  background: #143d2b;
+  border-radius: 12px;
+
+  box-shadow: 0 10px 24px rgba(20, 61, 43, 0.28);
+}
+
+.team-badge-label {
+  margin: 0;
+
+  color: #d99631;
+
+  font-size: 11px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.team-badge-name {
+  margin: 0;
+
+  color: #f2d18c;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: 30px;
+  font-weight: 800;
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 640px) {
+  .team-badge {
+    padding: 11px 24px;
+  }
+
+  .team-badge-label {
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+
+  .team-badge-name {
+    font-size: 22px;
+  }
+}
+
+
 .eyebrow {
   position: relative;
 
